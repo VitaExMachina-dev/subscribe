@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+#page {
+    height: 80vh;
+    width: 100vw;
+    background-color: skyblue;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Colour Schemes */
+.blue {
+    border-style: solid;
+    border-color: blue;
+    background-color: rgb(205, 231, 239);
+    color: blue;
+}
+
+button.blue:hover{
+    background-color: rgb(85, 136, 239);
+    color: aliceblue;
+}
+
+.green {
+    border-style: solid;
+    border-color: darkgreen;
+    color: darkgreen;    
+}
+
+button.green:hover {
+    background-color: rgb(121, 168, 89);
+    color: aliceblue;
+}
+
+.red {
+    border-style: solid;
+    border-color: red;
+    color: red;
+}
+
+button.red:hover {
+    background-color: salmon;
+    color: aliceblue;
+    
+}
+
+/* General Styling */
+.subscribe {
+    height: 70vh;
+    width: 20vw;
+    border-radius: 40px;
+    background-color: aliceblue;
+    grid-template-columns: 1fr;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 2rem;
+    color: black;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0 auto;
+    display: block;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: 1rem;
+}
