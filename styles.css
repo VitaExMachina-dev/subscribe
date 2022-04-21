@@ -52,6 +52,11 @@ button.red:hover {
     background-color: aliceblue;
     grid-template-columns: 1fr;
     box-shadow: -2px 2px 5px;
+    opacity: 0.5;
+}
+
+.subscribe:hover {
+    opacity: 1;
 }
 
 .content {
