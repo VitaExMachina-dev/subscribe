@@ -1,2 +1,2 @@
 # vemsubscribe.gibhub.io
-subscribe
+https://vitaexmachina-dev.github.io/subscribe/
