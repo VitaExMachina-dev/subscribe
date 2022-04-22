@@ -1,0 +1,62 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 849ef19..d2723a1 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -64,5 +64,8 @@[m
+             <button class="red">Subscribe</button>[m
+         </section>[m
+     </main>  [m
+[32m+[m[32m    <footer class="center">[m[41m[m
+[32m+[m[32m        <h2>some stuff</h2>[m[41m[m
+[32m+[m[32m    </footer>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/styles.css b/styles.css[m
+[1mindex e30fe7a..e83a7fe 100644[m
+[1m--- a/styles.css[m
+[1m+++ b/styles.css[m
+[36m@@ -3,10 +3,10 @@[m [mbody {[m
+ }[m
+ [m
+ #page {[m
+[31m-    height: 80vh;[m
+[32m+[m[32m    /* height: 80vh; */[m[41m[m
+     width: 100vw;[m
+     background-color: skyblue;[m
+[31m-    display: inline-flex;[m
+[32m+[m[32m    display: flex;[m[41m[m
+     justify-content: space-evenly;[m
+     align-items: center;[m
+ }[m
+[36m@@ -49,7 +49,7 @@[m [mbutton.red:hover {[m
+ [m
+ /* General Styling */[m
+ .subscribe {[m
+[31m-    height: 70vh;[m
+[32m+[m[32m    /* height: 70vh; */[m[41m[m
+     width: 20vw;[m
+     border-radius: 40px;[m
+     background-color: aliceblue;[m
+[36m@@ -69,7 +69,7 @@[m [mbutton.red:hover {[m
+ img {[m
+     margin: 0 auto;[m
+     display: block;[m
+[31m-    width: 150px;[m
+[32m+[m[32m    height: 150px;[m[41m[m
+ }[m
+ [m
+ .center {[m
+[36m@@ -85,4 +85,11 @@[m [mbutton {[m
+     border-radius: 40px;[m
+     font-weight: 800;[m
+     font-size: 1rem;[m
+[32m+[m[32m    margin-bottom: 10px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m@media (max-width: 1000px) {[m[41m[m
+[32m+[m[32m    .page {[m[41m[m
+[32m+[m[32m        flex-direction: column;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+ }[m
+\ No newline at end of file[m

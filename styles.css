@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: skyblue;
+    background-image: url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
 }
 
 #page {
@@ -10,9 +11,15 @@ body {
 }
 
 /* Colour Schemes */
+.header {
+    color: aliceblue;
+    box-shadow: 10px 5px 5px aliceblue;
+    padding: 5px;
+}
+
 .blue {
-    border-style: solid;
-    border-color: blue;
+    /* border-style: solid;
+    border-color: blue; */
     background-color: rgb(205, 231, 239);
     color: blue;
 }
@@ -23,8 +30,8 @@ button.blue:hover{
 }
 
 .green {
-    border-style: solid;
-    border-color: darkgreen;
+    /* border-style: solid;
+    border-color: darkgreen; */
     color: darkgreen;    
 }
 
@@ -34,8 +41,8 @@ button.green:hover {
 }
 
 .red {
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid;
+    border-color: red; */
     color: red;
 }
 
@@ -53,15 +60,18 @@ button.red:hover {
     grid-template-columns: 1fr;
     box-shadow: -2px 2px 5px;
     opacity: 0.5;
+    transition: 0.5s;
 }
 
 .subscribe:hover {
     opacity: 1;
+    transform: scale(1.03);
 }
 
 .content {
     padding: 2rem;
     color: black;
+    font-size: small;
 }
 
 img {
@@ -97,6 +107,29 @@ footer {
 @media (max-width: 1250px) {
     main {
         flex-direction: column;
+    }
+
+    .subscribe {
+        opacity: 1;
+        box-shadow: none;
+    }
+
+    .subscribe:hover {
+        transform: none;
+    }
+
+    .top {
+        border-radius: 40px 40px 0 0 ;
+    }
+
+    .middle {
+        border-radius: 0;
+        border-top: solid;
+    }
+
+    .bottom {
+        border-radius: 0 0 40px 40px;
+        border-top: solid;
     }
 }
 
